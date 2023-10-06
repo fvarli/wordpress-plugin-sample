@@ -1,0 +1,203 @@
+.glossary {
+    height: 90px;
+    background: linear-gradient(to right, #4853f7, #3f4bfd, #4853f7);
+}
+
+.glossary-title-area {
+    padding-top: 38px;
+    margin-bottom: 16px;
+}
+
+.glossary-title-area .container h1 {
+    height: 36px;
+    left: 233px;
+    top: 128px;
+    padding-left: 0.5rem;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #333333;
+}
+
+.glossary-search-area {
+    margin-top: 10px;
+    margin-bottom: 24px;
+}
+
+.glossary-search-area .b-text {
+    padding-left: 0.5rem;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #333333;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.glossary-search-area .alphabet-area {
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+}
+
+.glossary-search-area .alphabet-list {
+    margin-left: 12px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #122AF3;
+}
+
+.glossary-search-area .letter {
+    margin-left: 12px;
+    text-decoration: none;
+}
+
+.glossary-search-area .alphabet-list a:hover {
+    cursor: pointer;
+}
+
+.glossary-search-area .search-input {
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 30px;
+    height: 41px;
+    width: auto;
+    top: 278px;
+    border: 1px solid #BDBDBD;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.glossary-search-area .search-input:focus{
+    color: #122AF3;
+    outline: none;
+    border: 1px solid #122AF3;
+}
+
+.glossary-search-area .search-input:not(:placeholder-shown){
+    color: #122AF3;
+    outline: none;
+    border: 1px solid #122AF3;
+}
+
+.glossary-search-area .glossary-search-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 16px;
+    height: 41px;
+    background: #122AF3;
+    border-style: none;
+    border-radius: 8px;
+    color: #fff;
+    margin-left: 8px;
+}
+
+.glossary-search-area .glossary-search-form {
+    display: flex;
+    justify-content: end;
+}
+
+.glossary-result-info .container .search-result-number {
+    padding-left: 0.5rem;
+}
+
+.glossary-result-info .container .search-text {
+    font-weight: 600;
+}
+
+.glossary-list {
+    margin-top: 24px;
+    margin-bottom: 60px;
+}
+
+.glossary-list .table .title {
+    width: 120px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+.glossary-search-form .glossary-search-info {
+    margin-top: 4px;
+    display: none;
+    position: absolute;
+    height: auto;
+}
+
+.glossary-search-form .glossary-search-info-image {
+    vertical-align: bottom;
+    margin-left: 16px;
+}
+
+.glossary-search-form .glossary-search-info-text {
+    line-height: 18px !important;
+    font-size: 12px;
+    margin-left: 5px;
+    font-style: italic;
+    font-weight: 300;
+    color: #BDBDBD;
+}
+
+.glossary-search-form .glossary-search-result {
+    display: none;
+    padding: 10px 16px;
+    margin-top: 8px;
+    width: 264px;
+    height: auto;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    position: absolute;
+}
+
+.glossary-search-form .glossary-search-result ul {
+    margin-left: 10px;
+    margin-bottom: 16px;
+    margin-top: -10px;
+}
+
+.glossary-search-form .glossary-search-result .search-result-list-text {
+    margin-top: 16px;
+    margin-left: -26px;
+    margin-right: -16px;
+    padding-left: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.glossary-search-form .glossary-search-result .search-result-no-found {
+    margin-bottom: -8px;
+    margin-top: 16px;
+}
+
+.glossary-search-form .glossary-search-result .search-result-list-text:hover {
+    background: #122AF3;
+    color: #FFFFFF;
+}
+
+.glossary-list .table .description {
+    width: auto;
+    height: auto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #4F4F4F;
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+    margin: 0px 0px;
+}
